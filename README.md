@@ -1,5 +1,7 @@
-# Deep Neural Network for Chinese Word Segmentation
-## by Zhengyuan Liu
+# DNN-for-CWS
+Deep neural network for Chinese word segmentation
+
+Method Used see here https://github.com/zhengyuan-liu/DNN-for-CWS/blob/master/Reference-Paper-Summary.pdf
 
 ## Codes:
 dl_for_cws.py: initialize and train a DNN for Chinese Word Segmentation on training data set (NN1)
