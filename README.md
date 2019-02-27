@@ -13,26 +13,18 @@ Method used see https://github.com/zhengyuan-liu/DNN-for-CWS/blob/master/Referen
 * `word2vec_pretrain.py`: get pre-trained character embeddings by word2vec toolkit
 
 ## Models:
-nn1: DNN trained by `dl_for_cws.py`
-
-nn2: DNN trained by `dl_for_cws_pretrained`
-
-word2vector.vector: pre-trained character embeddings by word2vec toolkit
+* `nn1`: DNN trained by `dl_for_cws.py`
+* `nn2`: DNN trained by `dl_for_cws_pretrained`
+* `word2vector.vector`: pre-trained character embeddings by word2vec toolkit
 
 ## Data:
-pku_training(.txt and .utf8): PKU training data set
-
-pku_test(.txt and .utf8): PKU test data set
-
-pku_test_gold(.txt and .utf8): gold segmentation of PKU test data set
-
-msr_training(.txt and .utf8): MSRA training data set
-
-msr_test(.txt and .utf8): MSRA training data set
-
-unlabeled_corpus.utf8: unlabeled corpus to train the word2vec model
+* `pku_training(.txt and .utf8)`: PKU training data set
+* `pku_test(.txt and .utf8)`: PKU test data set
+* `pku_test_gold(.txt and .utf8)`: gold segmentation of PKU test data set
+* `msr_training(.txt and .utf8`): MSRA training data set
+* `msr_test(.txt and .utf8)`: MSRA training data set
+* `unlabeled_corpus.utf8`: unlabeled corpus to train the word2vec model
 
 ## Results:
-`pku_test_result1.utf8`: segmentation result of PKU test data set (NN1)
-
-`pku_test_result2.utf8`: segmentation result of PKU test data set (NN2)
+* `pku_test_result1.utf8`: segmentation result of PKU test data set (NN1)
+* `pku_test_result2.utf8`: segmentation result of PKU test data set (NN2)
